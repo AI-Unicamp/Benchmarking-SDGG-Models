@@ -69,6 +69,7 @@ Tst Noise High
 
 ### Training FGD
 
+## Step 5: Processing
 ### Running Docker
 1. Create docker image using the next command in your terminal:
 ```angular2html
@@ -85,7 +86,7 @@ docker run --rm -it --gpus all --userns=host --shm-size 64G -v /work/kevin.colqu
 source activate diffuse
 ```
 
-4. This is ......
+4. Go to our Workspace (Note that you can visualize it when launch us the container)
 ```angular2html
 cd /workspace/diffusestylegesture/
 ```
