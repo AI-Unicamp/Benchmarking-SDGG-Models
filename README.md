@@ -53,21 +53,8 @@ To generate all voices in noisy environment launch the next command:
 LEO
 ```
 
-### Quick Start downloading all audios Datasets
 
 
-
-### Gestures Generation
-Tst Speaker 1
-Tst VC 1
-Tst VC 2
-Tst VC 3
-Tst VC 4
-Tst Noise Low
-Tst Noise Mid
-Tst Noise High
-
-### Training FGD
 
 ## Step 5: Processing
 ### Running Docker
@@ -90,3 +77,23 @@ source activate diffuse
 ```angular2html
 cd /workspace/diffusestylegesture/
 ```
+
+### Gestures Generation
+Tst Speaker 1
+Tst VC 1
+Tst VC 2
+Tst VC 3
+Tst VC 4
+Tst Noise Low
+Tst Noise Mid
+Tst Noise High
+
+### Calculate the Positions and 3D Rotations
+
+
+
+### Training FGD
+
+
+### Quick Start downloading all audios Datasets
+
