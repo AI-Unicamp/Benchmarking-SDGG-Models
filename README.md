@@ -6,12 +6,18 @@
 git clone https://github.com/YoungSeng/DiffuseStyleGesture.git
 ```
 
-2. Inside the DiffuseStyleGesture+ directory that you cloned, you have to Clone the genea_numerical_evaluations repository.
+2. Inside the DiffuseStyleGesture directory that you cloned, you have to Clone the genea_numerical_evaluations repository.
+```angular2html
+cd DiffuseStyleGesture
+```
 ```angular2html
 git clone https://github.com/genea-workshop/genea_numerical_evaluations.git
 ```
 
-3. Inside the DiffuseStyleGesture+ directory that you cloned, you have to Clone the genea_numerical_evaluations repository.
+3. Inside the DiffuseStyleGesture directory that you cloned, you have to Clone the genea_numerical_evaluations repository.
+```angular2html
+cd DiffuseStyleGesture
+```
 ```angular2html
 git clone https://github.com/AI-Unicamp/Benchmarking-SDGGModels-2-UV---NE.git
 ```
