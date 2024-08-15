@@ -1,5 +1,6 @@
 # Benchmarking-SDGGModels-2-UV---NE
 
+## Step 1: Clonning repositories
 1. Clone the DiffuseStyleGesture+ repository.
 ```angular2html
 git clone https://github.com/YoungSeng/DiffuseStyleGesture.git
@@ -15,16 +16,23 @@ git clone https://github.com/genea-workshop/genea_numerical_evaluations.git
 git clone https://github.com/AI-Unicamp/Benchmarking-SDGGModels-2-UV---NE.git
 ```
 
-## Generating Unseen Voices
+## Step 2: Generating Unseen Voices
 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1MkpCmmM0C9dyS5w7wQXKg71UTUPhqbvO?usp=sharing).
 After download you have to put the directories in:
 ```angular2html
-cd DiffuseStyleGesture+/Benchmarking-SDGGModels-2-UV---NE/Dataset/
+cd DiffuseStyleGesture+/Benchmarking-SDGGModels-2-UV---NE/Dataset/Unseen-Voices-with-Pitch-Changed
 ```
 
 To generate all voices with voice conversion launch the next command:
 ```angular2html
 LEO
+```
+
+## Step 3: Generating Voices in Noisy Environment
+If you dont want generate all voices, then you can download the datasets with [our link of Google Drive]().
+After download you have to put the directories in:
+```angular2html
+cd DiffuseStyleGesture+/Benchmarking-SDGGModels-2-UV---NE/Dataset/Voices-in-Noisy-Environment
 ```
 
 ### Quick Start downloading all audios Datasets
