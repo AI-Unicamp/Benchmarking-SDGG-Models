@@ -77,6 +77,7 @@ cd /workspace/diffusestylegesture/
 
 ### Gestures Generation
 1. Download files of DiffuseStyleGesture's pre-trained models from [google cloud](https://drive.google.com/drive/folders/1V83X4ZNYQZ_u5A1hKW8Tr9_4cui22TNw?usp=sharing).
+If you want retrain and get your own checkpoints, you can go to the DiffuseStyleGesture+ repository and run the step 4.
 Tst Speaker 1
 Tst VC 1
 Tst VC 2
