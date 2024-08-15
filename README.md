@@ -1,5 +1,15 @@
 # Benchmarking-SDGGModels-2-UV---NE
 
+1. Clone the DiffuseStyleGesture+ repository.
+```angular2html
+git clone https://github.com/YoungSeng/DiffuseStyleGesture.git
+```
+
+2. Inside the DiffuseStyleGesture+ directory that you cloned, you have to Clone the genea_numerical_evaluations repository.
+```angular2html
+git clone https://github.com/genea-workshop/genea_numerical_evaluations.git
+```
+
 1. Create docker image using the next command in your terminal:
 ```angular2html
 docker build -t diffuse_style_gesture_plus .
