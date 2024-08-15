@@ -17,7 +17,7 @@ git clone https://github.com/AI-Unicamp/Benchmarking-SDGGModels-2-UV---NE.git
 ```
 
 ## Step 2: Downloading Genea Datasets
-Download the Genea 2023 Train Dataset. To get it you can use [our link of Goolgle Drive]() or you can use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
+Download the Genea 2023 Train Dataset. To get it you can use [our link of Goolgle Drive](https://drive.google.com/drive/folders/1GvP67y8Ffi-3Y-pzGoZxMtyGKG0ZHT_4?usp=sharing) or you can use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
 Copy the downloaded dataset in the next directory path.
 ```angular2html
 cd DiffuseStyleGesture+/Benchmarking-SDGGModels-2-UV---NE/Dataset/trn
