@@ -16,6 +16,10 @@ git clone https://github.com/genea-workshop/genea_numerical_evaluations.git
 git clone https://github.com/AI-Unicamp/Benchmarking-SDGGModels-2-UV---NE.git
 ```
 
+## Step 1: Downloading Genea Datasets
+Download the Genea 2023 Train Dataset. To Get it you can use [our link of Goolgle Drive]() or you can use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
+ Copy the Genea Train directory in Benchmarking-SDGGModels-2-UV---NE Dataset directory.
+
 ## Step 2: Generating Unseen Voices
 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1MkpCmmM0C9dyS5w7wQXKg71UTUPhqbvO?usp=sharing).
 After download you have to put the directories in:
@@ -42,7 +46,7 @@ LEO
 
 ### Quick Start downloading all audios Datasets
 
-Copy the Genea Train directory in Benchmarking-SDGGModels-2-UV---NE Dataset directory. To Get the Genea Train directory you can do it by [our link of Goolgle Drive](https://drive.google.com/drive/folders/1V83X4ZNYQZ_u5A1hKW8Tr9_4cui22TNw?usp=sharing).
+
 
 ### Gestures Generation
 Tst Speaker 1
@@ -56,7 +60,7 @@ Tst Noise High
 
 ### Training FGD
 
-
+### Running Docker
 1. Create docker image using the next command in your terminal:
 ```angular2html
 docker build -t diffuse_style_gesture_plus .
