@@ -22,6 +22,11 @@ After download you have to put the directories in:
 cd DiffuseStyleGesture+/Benchmarking-SDGGModels-2-UV---NE/Dataset/
 ```
 
+To generate all voices with voice conversion launch the next command:
+```angular2html
+LEO
+```
+
 ### Quick Start downloading all audios Datasets
 
 Copy the Genea Train directory in Benchmarking-SDGGModels-2-UV---NE Dataset directory. To Get the Genea Train directory you can do it by [our link of Goolgle Drive](https://drive.google.com/drive/folders/1V83X4ZNYQZ_u5A1hKW8Tr9_4cui22TNw?usp=sharing).
