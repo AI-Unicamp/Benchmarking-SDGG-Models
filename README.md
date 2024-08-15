@@ -1,6 +1,6 @@
 # Benchmarking-SDGGModels-2-UV---NE
 
-## Step 1: Clonning repositories
+## Step 1: Cloning repositories
 1. Clone the DiffuseStyleGesture+ repository.
 ```angular2html
 git clone https://github.com/YoungSeng/DiffuseStyleGesture.git
