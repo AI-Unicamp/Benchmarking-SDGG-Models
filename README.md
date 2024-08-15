@@ -53,9 +53,6 @@ To generate all voices in noisy environment launch the next command:
 LEO
 ```
 
-
-
-
 ## Step 5: Processing
 ### Running Docker
 1. Create docker image using the next command in your terminal:
@@ -79,6 +76,7 @@ cd /workspace/diffusestylegesture/
 ```
 
 ### Gestures Generation
+1. Download files of DiffuseStyleGesture's pre-trained models from [google cloud](https://drive.google.com/drive/folders/1V83X4ZNYQZ_u5A1hKW8Tr9_4cui22TNw?usp=sharing).
 Tst Speaker 1
 Tst VC 1
 Tst VC 2
