@@ -16,7 +16,7 @@ git clone https://github.com/AI-Unicamp/Benchmarking-SDGGModels-2-UV---NE.git
 ```
 
 ## Generating Unseen Voices
-If you dont want generate all voices, then you can download the datasets with [our link of Google Drive]().
+If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1MkpCmmM0C9dyS5w7wQXKg71UTUPhqbvO?usp=sharing).
 After download you have to put the directories in:
 ```angular2html
 cd DiffuseStyleGesture+/Benchmarking-SDGGModels-2-UV---NE/Dataset/
