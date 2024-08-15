@@ -17,8 +17,17 @@ git clone https://github.com/AI-Unicamp/Benchmarking-SDGGModels-2-UV---NE.git
 ```
 
 ## Step 1: Downloading Genea Datasets
-Download the Genea 2023 Train Dataset. To Get it you can use [our link of Goolgle Drive]() or you can use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
- Copy the Genea Train directory in Benchmarking-SDGGModels-2-UV---NE Dataset directory.
+Download the Genea 2023 Train Dataset. To get it you can use [our link of Goolgle Drive]() or you can use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
+Copy the downloaded dataset in the next directory path.
+```angular2html
+cd DiffuseStyleGesture+/Benchmarking-SDGGModels-2-UV---NE/Dataset/trn
+```
+
+Download the Genea 2023 Test Dataset with only Speaker 1. To get it you can use [our link of Goolgle Drive](https://drive.google.com/drive/folders/1R-nvdXInAsqvJUuT8EY6fQ0TnbD7jlni?usp=sharing).
+Copy the downloaded dataset in the next directory path.
+```angular2html
+cd DiffuseStyleGesture+/Benchmarking-SDGGModels-2-UV---NE/Dataset/tst_spk_1
+```
 
 ## Step 2: Generating Unseen Voices
 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1MkpCmmM0C9dyS5w7wQXKg71UTUPhqbvO?usp=sharing).
