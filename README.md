@@ -15,7 +15,14 @@ git clone https://github.com/genea-workshop/genea_numerical_evaluations.git
 git clone https://github.com/AI-Unicamp/Benchmarking-SDGGModels-2-UV---NE.git
 ```
 
-### Datasets
+## Generating Unseen Voices
+If you dont want generate all voices, then you can download the datasets with [our link of Google Drive]().
+After download you have to put the directories in:
+```angular2html
+cd DiffuseStyleGesture+/Benchmarking-SDGGModels-2-UV---NE/Dataset/
+```
+
+### Quick Start downloading all audios Datasets
 
 Copy the Genea Train directory in Benchmarking-SDGGModels-2-UV---NE Dataset directory. To Get the Genea Train directory you can do it by [our link of Goolgle Drive](https://drive.google.com/drive/folders/1V83X4ZNYQZ_u5A1hKW8Tr9_4cui22TNw?usp=sharing).
 
