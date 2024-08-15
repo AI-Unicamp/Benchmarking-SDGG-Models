@@ -16,7 +16,7 @@ git clone https://github.com/genea-workshop/genea_numerical_evaluations.git
 git clone https://github.com/AI-Unicamp/Benchmarking-SDGGModels-2-UV---NE.git
 ```
 
-## Step 1: Downloading Genea Datasets
+## Step 2: Downloading Genea Datasets
 Download the Genea 2023 Train Dataset. To get it you can use [our link of Goolgle Drive]() or you can use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
 Copy the downloaded dataset in the next directory path.
 ```angular2html
@@ -29,7 +29,7 @@ Copy the downloaded dataset in the next directory path.
 cd DiffuseStyleGesture+/Benchmarking-SDGGModels-2-UV---NE/Dataset/tst_spk_1
 ```
 
-## Step 2: Generating Unseen Voices
+## Step 3: Generating Unseen Voices
 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1MkpCmmM0C9dyS5w7wQXKg71UTUPhqbvO?usp=sharing).
 After download you have to put the directories in:
 ```angular2html
@@ -41,7 +41,7 @@ To generate all voices with voice conversion launch the next command:
 LEO
 ```
 
-## Step 3: Generating Voices in Noisy Environment
+## Step 4: Generating Voices in Noisy Environment
 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive]().
 After download you have to put the directories in:
 ```angular2html
