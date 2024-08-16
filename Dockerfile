@@ -1,4 +1,4 @@
-#Imagen que nos da NVIDIA
+#Image that provides us with NVIDIA CUDA on Ubuntu 22.04
 FROM nvidia/cuda:12.2.0-devel-ubuntu22.04
 
 ENV PATH="/root/miniconda3/bin:${PATH}"
@@ -6,36 +6,35 @@ ARG PATH="/root/miniconda3/bin:${PATH}"
 
 RUN apt-get update && apt-get install -y wget git sox libsox-fmt-all
 
-# Descargar e instalar Miniconda
+# Download and install Miniconda
 RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O /tmp/miniconda.sh \
-    # Crea un directorio .conda en el directorio home del usuario root.
+    # Create a .conda directory in the root user's home directory.
     && mkdir /root/.conda \
-    # Ejecuta el script de instalación de Miniconda en modo silencioso (sin interacción del usuario, con -b).
+    # Run the Miniconda installation script in silent mode (without user interaction, using -b).
     && bash /tmp/miniconda.sh -b -p /root/miniconda3 \
-    # Elimina el script de instalación después de que Miniconda ha sido instalado para mantener limpio el entorno Docker.
+    # Delete the installation script after Miniconda has been installed to keep the Docker environment clean.
     && rm -f /tmp/miniconda.sh
 
 #cd /root
 WORKDIR /root
 
-# Copiar el archivo environment.yml al directorio de trabajo
+# Copy the environment.yml file to the working directory.
 COPY environment.yml .
 
-# Actualizar conda e instalar pip
+# Update conda and install pip.
 RUN conda update -n base -c defaults conda -y
 RUN conda install pip -y
 
-# Crear el entorno conda 'ggvad' a partir del archivo environment.yml
+# Create the conda environment 'ggvad' from the environment.yml file.
 RUN conda env create -f environment.yml
 
-#DEPENDENCIAS O INSTALACION PARA EL PROYECTO "TARATARATARA" *********************
 SHELL ["conda", "run", "-n", "diffuse", "/bin/bash", "-c"]
 
-# Estas instalaciones con PIP se hicieron veloz
+# These installations with PIP were done quickly.
 RUN pip install pydub praat-parselmouth essentia TextGrid
 RUN conda install -c conda-forge ffmpeg
 
-#Esta instalacion la estoy haciendo para python 3.9:
+# I am performing this installation for Python 3.9.
 RUN conda install -c anaconda h5py
 RUN pip install bvhsdk
 RUN pip install wandb
