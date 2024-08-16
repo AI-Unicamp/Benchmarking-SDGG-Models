@@ -1,4 +1,4 @@
-# Benchmarking-SDGGModels-2-UV---NE
+# Benchmarking-SDGG-Models
 
 ## Step 1: Cloning repositories
 1. Clone the DiffuseStyleGesture repository.
