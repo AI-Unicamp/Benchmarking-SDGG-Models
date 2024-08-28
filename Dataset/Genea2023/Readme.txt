@@ -1,0 +1,1 @@
+Here you have to put the Dataset given by Genea Challenge, the TRN, TST, VAL dataset and TST from Speaker 1.
