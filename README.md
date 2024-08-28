@@ -19,7 +19,7 @@ git clone https://github.com/genea-workshop/genea_numerical_evaluations.git
 cd DiffuseStyleGesture
 ```
 ```angular2html
-git clone https://github.com/AI-Unicamp/Benchmarking-SDGGModels-2-UV---NE.git
+git clone https://github.com/AI-Unicamp/Benchmarking-SDGG-Models.git
 ```
 
 ## Step 2: Downloading Genea 2023 Datasets
