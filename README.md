@@ -1,12 +1,17 @@
 # Benchmarking-SDGG-Models
 
 ## Step 1: Cloning repositories
-1. Clone the DiffuseStyleGesture repository.
+1. Create a directory
+```angular2html
+mkdir <choose_any_name_to_your_project>
+```
+
+2. Clone the DiffuseStyleGesture repository.
 ```angular2html
 git clone https://github.com/YoungSeng/DiffuseStyleGesture.git
 ```
 
-2. Inside the DiffuseStyleGesture directory that you cloned, you have to Clone the genea_numerical_evaluations repository.
+3. Inside the DiffuseStyleGesture directory that you cloned, you have to Clone the genea_numerical_evaluations repository.
 ```angular2html
 cd DiffuseStyleGesture
 ```
@@ -14,7 +19,7 @@ cd DiffuseStyleGesture
 git clone https://github.com/genea-workshop/genea_numerical_evaluations.git
 ```
 
-3. Inside the DiffuseStyleGesture directory that you cloned, you have to Clone the genea_numerical_evaluations repository.
+4. Inside the DiffuseStyleGesture directory that you cloned, you have to Clone the genea_numerical_evaluations repository.
 ```angular2html
 cd DiffuseStyleGesture
 ```
