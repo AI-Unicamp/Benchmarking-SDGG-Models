@@ -85,10 +85,14 @@ cd /workspace/diffusestylegesture/
 
 (This file is similar to the given by DiffuseStyleGesture+, with respectively changes to our work)
 
-1. Download files of DiffuseStyleGesture's pre-trained models from [google cloud](https://drive.google.com/drive/folders/1V83X4ZNYQZ_u5A1hKW8Tr9_4cui22TNw?usp=sharing).
-If you want retrain and get your own checkpoints, you can go to the DiffuseStyleGesture+ repository and run the step 4.
+1. Download files of DiffuseStyleGesture's pre-trained models from [google cloud](https://drive.google.com/drive/folders/1V83X4ZNYQZ_u5A1hKW8Tr9_4cui22TNw?usp=sharing). Put this two files inside of "DiffuseStyleGesture/BEAT-TWH-main/mydiffusion_beat_twh/TWH_mymodel4_512_v0/"
+Nota: If you want retrain and get your own checkpoints, you can go to the DiffuseStyleGesture+ repository and run the step 4.
 
-2. Generate gestures from WAV audio files of "Speaker 1 Test Dataset".
+2. Download the "WavLM-Large.pt" from [google cloud](https://drive.google.com/drive/folders/14L5hR4q310KMt1SAt-1FNo4PfhT7Se3V?usp=sharing). Put this file inside of "DiffuseStyleGesture/BEAT-TWH-main/process/WavLM/"
+
+3. Download the "crawl-300d-2M.vec" from [google cloud](https://drive.google.com/drive/folders/1wTB_dpLCVcvcmjwnjHb9esnNZL2cb1Rk?usp=sharing). Put this file inside of "DiffuseStyleGesture/BEAT-TWH-main/process/"
+
+5. Generate gestures from WAV audio files of "Speaker 1 Test Dataset".
 ```angular2html
 ```
 
