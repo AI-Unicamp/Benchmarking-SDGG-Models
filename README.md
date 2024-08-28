@@ -23,16 +23,22 @@ git clone https://github.com/AI-Unicamp/Benchmarking-SDGG-Models.git
 ```
 
 ## Step 2: Downloading Genea 2023 Datasets
-Download the Genea 2023 Train Dataset. To get it you can use [our link of Goolgle Drive](https://drive.google.com/drive/folders/1GvP67y8Ffi-3Y-pzGoZxMtyGKG0ZHT_4?usp=sharing) or you can use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
-Copy the downloaded dataset in the next directory path.
+Download the Genea 2023 Train Dataset. To get it you can use [our link of Google Drive](https://drive.google.com/drive/folders/1GvP67y8Ffi-3Y-pzGoZxMtyGKG0ZHT_4?usp=sharing) or you can use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
+Put the downloaded directory called "trn" in the next directory path.
 ```angular2html
-cd DiffuseStyleGesture+/Benchmarking-SDGG-Models/Dataset/Genea2023/train_dataset
+cd DiffuseStyleGesture+/Benchmarking-SDGG-Models/Dataset/Genea2023/
 ```
 
-Download the Genea 2023 Test Dataset with only Speaker 1. To get it you can use [our link of Goolgle Drive](https://drive.google.com/drive/folders/1R-nvdXInAsqvJUuT8EY6fQ0TnbD7jlni?usp=sharing).
+Download the Genea 2023 Test Dataset. To get it you can use [our link of Google Drive](https://drive.google.com/drive/folders/15IcRXcu6PI2DryfYLzMwSis4zEcMTFIK?usp=sharing) or you can use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).
+Put the downloaded directory called "tst" in the next directory path.
+```angular2html
+cd DiffuseStyleGesture+/Benchmarking-SDGG-Models/Dataset/Genea2023/
+```
+
+Download the audios WAV of Genea 2023 Test Dataset with only Speaker 1. To get it you can use [our link of Goolgle Drive](https://drive.google.com/drive/folders/1R-nvdXInAsqvJUuT8EY6fQ0TnbD7jlni?usp=sharing).
 Copy the downloaded dataset in the next directory path.
 ```angular2html
-cd DiffuseStyleGesture+/Benchmarking-SDGG-Models/Dataset/Genea2023/tst_spk_1
+cd DiffuseStyleGesture+/Benchmarking-SDGG-Models/Dataset/Genea2023/
 ```
 
 ## Step 3: Generating Unseen Voices
