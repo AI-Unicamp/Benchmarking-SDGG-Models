@@ -51,7 +51,7 @@ LEO
 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive]().
 After download you have to put the directories in:
 ```angular2html
-cd DiffuseStyleGesture+/Benchmarking-SDGGModels-2-UV---NE/Dataset/Voices-in-Noisy-Environment
+cd DiffuseStyleGesture+/Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment
 ```
 
 To generate all voices in noisy environment launch the next command:
