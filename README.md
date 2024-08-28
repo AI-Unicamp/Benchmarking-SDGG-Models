@@ -99,8 +99,11 @@ Nota: If you want retrain and get your own checkpoints, you can go to the Diffus
 
 3. Download the "crawl-300d-2M.vec" from [google cloud](https://drive.google.com/drive/folders/1wTB_dpLCVcvcmjwnjHb9esnNZL2cb1Rk?usp=sharing). Put this file inside of "DiffuseStyleGesture/BEAT-TWH-main/process/"
 
-5. Generate gestures from WAV audio files of "Speaker 1 Test Dataset".
+4. Download the "generate.py" file from [google cloud](). Put this file inside of "DiffuseStyleGesture/BEAT-TWH-main/mydiffusion_beat_twh/"
+
+5. Generate gestures from WAV audio files of "Speaker 1 Test Dataset". To do this you can localize in "DiffuseStyleGesture/BEAT-TWH-main/mydiffusion_beat_twh/" and to run the next command in your terminal you need know which is the path of the WAV audios files of the Speaker 1 and which is the path of the tsv files of the "tst" dataset:
 ```angular2html
+python generate.py --wav_path ../../../Benchmarking-SDGG-Models/Dataset/Genea2023/wav_spk_1/ --txt_path ../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv
 ```
 
 3. Generate gestures from WAV audio files of "Tst_spk1_vc_man_high_pitch"
