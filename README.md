@@ -108,17 +108,17 @@ Nota: If you want retrain and get your own checkpoints, you can go to the Diffus
 python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/wav_spk_1/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
 ```
 
-6. Generate gestures from Test Dataset with **High Noisy Environment**
+6. Generate gestures from **Test Dataset with High Noisy Environment**
 ```angular2html
 python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/high/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
 ```
 
-7. Generate gestures from Test Dataset with **Mid Noisy Environment**
+7. Generate gestures from **Test Dataset with Mid Noisy Environment**
 ```angular2html
 python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/mid/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
 ```
 
-8. Generate gestures from Test Dataset with **Low Noisy Environment**
+8. Generate gestures from **Test Dataset with Low Noisy Environment**
 ```angular2html
 python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/low/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
 ```
