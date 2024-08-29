@@ -124,10 +124,13 @@ python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Voices
 ```
 
 3. Generate gestures from WAV audio files of "Tst_spk1_vc_man_high_pitch"
+Speaker 1 Test Dataset
 Tst VC 1
 Tst VC 2
 Tst VC 3
 Tst VC 4
+
+Test Dataset
 Tst Noise Low
 Tst Noise Mid
 Tst Noise High
