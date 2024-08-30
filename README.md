@@ -89,19 +89,16 @@ source activate diffuse
 cd /workspace/diffusestylegesture/
 ```
 
-### Gestures Generation
-
-(This file is similar to the given by DiffuseStyleGesture+, with respectively changes to our work)
+### Download the models needed to the Gestures Generation
 
 1. Download files of DiffuseStyleGesture's pre-trained models from [google cloud](https://drive.google.com/drive/folders/1V83X4ZNYQZ_u5A1hKW8Tr9_4cui22TNw?usp=sharing). Put this two files inside of "DiffuseStyleGesture/BEAT-TWH-main/mydiffusion_beat_twh/TWH_mymodel4_512_v0/"
-
-Nota: If you want retrain and get your own checkpoints, you can go to the DiffuseStyleGesture+ repository and run the step 4.
+- Nota: If you want retrain and get your own checkpoints, you can go to the [DiffuseStyleGesture+](https://github.com/YoungSeng/DiffuseStyleGesture/tree/master/BEAT-TWH-main) repository and run the steps.
 
 2. Download the "WavLM-Large.pt" from [google cloud](https://drive.google.com/drive/folders/14L5hR4q310KMt1SAt-1FNo4PfhT7Se3V?usp=sharing). Put this file inside of "DiffuseStyleGesture/BEAT-TWH-main/process/WavLM/"
 
 3. Download the "crawl-300d-2M.vec" from [google cloud](https://drive.google.com/drive/folders/1wTB_dpLCVcvcmjwnjHb9esnNZL2cb1Rk?usp=sharing). Put this file inside of "DiffuseStyleGesture/BEAT-TWH-main/process/"
 
-4. Download the "generate.py" file from [google cloud](https://drive.google.com/drive/folders/1Pu9ob2YUm2rq4msSxeBrbsGsUeGjDnpz?usp=sharing). Put this file inside of "DiffuseStyleGesture/BEAT-TWH-main/mydiffusion_beat_twh/"
+4. Download the "generate.py" file from [google cloud](https://drive.google.com/drive/folders/1Pu9ob2YUm2rq4msSxeBrbsGsUeGjDnpz?usp=sharing). Put this file inside of "DiffuseStyleGesture/BEAT-TWH-main/mydiffusion_beat_twh/". (This file "generate.py" is similar to the given by DiffuseStyleGesture+, with respectively changes to our work)
 
 5. Generate gestures from WAV audio files of **"Speaker 1 Test Dataset"**. To do this you can localize in "DiffuseStyleGesture/BEAT-TWH-main/mydiffusion_beat_twh/" and to run the next command in your terminal you need know which is the path of the WAV audios files of the Speaker 1 and which is the path of the tsv files of the "tst" dataset:
 ```angular2html
@@ -123,17 +120,14 @@ python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Voices
 python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/low/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
 ```
 
-9. Generate gestures from ***Test Dataset with Voice Conversion to Highest Pitch Man*** (asdasd)
+9. Generate gestures from ***Test Dataset with Voice Conversion to Highest Pitch Man***
 10. Generate gestures from ***Test Dataset with Voice Conversion to Lowest Pitch Man***
 11. Generate gestures from ***Test Dataset with Voice Conversion to Highest Pitch Woman***
 12. Generate gestures from ***Test Dataset with Voice Conversion to Lowest Pitch Woman***
 
 3. Generate gestures from WAV audio files of "Tst_spk1_vc_man_high_pitch"
 Speaker 1 Test Dataset
-Tst VC 1
-Tst VC 2
-Tst VC 3
-Tst VC 4
+
 
 Test Dataset
 Tst Noise Low
