@@ -149,6 +149,10 @@ python compute_Positions_3DRotations.py
 
 ### Training FGD
 ```angular2html
-python trainingFGD.py
+python training_FGD.py
 ```
 
+### Calculate FGD and MSE
+```angular2html
+python calculate_FGD_MSE.py
+```
