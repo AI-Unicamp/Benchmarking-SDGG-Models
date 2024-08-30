@@ -123,6 +123,11 @@ python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Voices
 python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/low/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
 ```
 
+9. Generate gestures from ***Test Dataset with Voice Conversion to Highest Pitch Man*** (asdasd)
+10. Generate gestures from ***Test Dataset with Voice Conversion to Lowest Pitch Man***
+11. Generate gestures from ***Test Dataset with Voice Conversion to Highest Pitch Woman***
+12. Generate gestures from ***Test Dataset with Voice Conversion to Lowest Pitch Woman***
+
 3. Generate gestures from WAV audio files of "Tst_spk1_vc_man_high_pitch"
 Speaker 1 Test Dataset
 Tst VC 1
