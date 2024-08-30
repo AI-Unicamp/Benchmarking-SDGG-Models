@@ -142,15 +142,13 @@ python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Unseen
 python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/kkkkkkkkk/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
 ```
 
-
-
-
-
-
 ### Calculate the Positions and 3D Rotations
-
-
+```angular2html
+python compute_Positions_3DRotations.py
+```
 
 ### Training FGD
-
+```angular2html
+python trainingFGD.py
+```
 
