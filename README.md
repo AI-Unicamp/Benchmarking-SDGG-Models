@@ -143,7 +143,6 @@ python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Unseen
 ```
 
 
-3. Generate gestures from WAV audio files of "Tst_spk1_vc_man_high_pitch"
 
 
 
