@@ -11,10 +11,7 @@ mkdir <name_of_your_project>
 git clone https://github.com/YoungSeng/DiffuseStyleGesture.git
 ```
 
-3. Inside the DiffuseStyleGesture directory that you cloned, you have to Clone the genea_numerical_evaluations repository.
-```angular2html
-cd DiffuseStyleGesture
-```
+3. Inside of your project directory CLONE the genea_numerical_evaluations repository.
 ```angular2html
 git clone https://github.com/genea-workshop/genea_numerical_evaluations.git
 ```
