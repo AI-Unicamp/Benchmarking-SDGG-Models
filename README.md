@@ -22,6 +22,7 @@ git clone https://github.com/AI-Unicamp/Benchmarking-SDGG-Models.git
 ```
 
 Sample here:
+
 ![Structure of Directories](https://github.com/AI-Unicamp/Benchmarking-SDGG-Models/blob/main/Images-to-Readme/Structure-of-directories.png)
 
 ## Step 2: Downloading Genea 2023 Datasets
