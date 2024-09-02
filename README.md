@@ -80,7 +80,7 @@ docker build -t benchmarking_sdgg_models_image .
 
 2. Run container using the next command in your terminal, but note that you must change the directory path of your local machine, for example my directory path was "/work/kevin.colque/DiffuseStyleGesture", but in your case must be another path according to your directory:
 ```angular2html
-docker run --rm -it --gpus all --userns=host --shm-size 64G -v /work/kevin.colque/DiffuseStyleGesture:/workspace/benchmarking_sdgg/ -p ‘9669:9669’ --name DIFFUSE_STYLE_GESTURE_PLUS_CONTAINER benchmarking_sdgg_models_image:latest /bin/bash
+docker run --rm -it --gpus all --userns=host --shm-size 64G -v <path_of_your_project>:/workspace/benchmarking_sdgg/ -p ‘9669:9669’ --name DIFFUSE_STYLE_GESTURE_PLUS_CONTAINER benchmarking_sdgg_models_image:latest /bin/bash
 ```
 
 3. Launch the virtual environment with the next command (Note that contain the activation of CUDA):
