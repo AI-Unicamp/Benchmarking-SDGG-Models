@@ -26,13 +26,13 @@ Sample here:
 ![Structure of Directories](https://github.com/AI-Unicamp/Benchmarking-SDGG-Models/blob/main/Images-to-Readme/Structure-of-directories.png)
 
 ## Step 2: Downloading Genea 2023 Datasets
-Download the Genea 2023 Train Dataset. To get it you can use [our link of Google Drive](https://drive.google.com/drive/folders/1GvP67y8Ffi-3Y-pzGoZxMtyGKG0ZHT_4?usp=sharing) or you can use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
+Download the Genea 2023 Train Dataset. To obtain it, you can preferably use [our link of Google Drive](https://drive.google.com/drive/folders/1GvP67y8Ffi-3Y-pzGoZxMtyGKG0ZHT_4?usp=sharing), or as a last resort, you could use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
 Put the downloaded directory called "trn" in the next directory path.
 ```angular2html
 cd Benchmarking-SDGG-Models/Dataset/Genea2023/
 ```
 
-Download the Genea 2023 Test Dataset. To get it you can use [our link of Google Drive](https://drive.google.com/drive/folders/15IcRXcu6PI2DryfYLzMwSis4zEcMTFIK?usp=sharing) or you can use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).
+Download the Genea 2023 Test Dataset. To obtain it, you can preferably use [our link of Google Drive](https://drive.google.com/drive/folders/15IcRXcu6PI2DryfYLzMwSis4zEcMTFIK?usp=sharing), or as a last resort, you could use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).
 Put the downloaded directory called "tst" in the next directory path.
 ```angular2html
 cd Benchmarking-SDGG-Models/Dataset/Genea2023/
