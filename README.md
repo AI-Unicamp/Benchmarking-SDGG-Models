@@ -3,7 +3,7 @@
 ## Step 1: Cloning repositories
 1. Create a directory for your project
 ```angular2html
-mkdir <choose_any_name_to_your_project>
+mkdir <name_of_your_project>
 ```
 
 2. Inside of your project directory CLONE the DiffuseStyleGesture repository.
