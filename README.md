@@ -22,7 +22,7 @@ git clone https://github.com/AI-Unicamp/Benchmarking-SDGG-Models.git
 ```
 
 Sample here:
-![Structure of Directories](https://github.com/AI-Unicamp/Benchmarking-SDGG-Models/blob/main/Images-to-Readme/Structure-of-directories.png)](https://github.com/AI-Unicamp/Benchmarking-SDGG-Models/blob/main/Images-to-Readme/Structure-of-directories.png)
+![Structure of Directories](https://github.com/AI-Unicamp/Benchmarking-SDGG-Models/blob/main/Images-to-Readme/Structure-of-directories.png)
 
 ## Step 2: Downloading Genea 2023 Datasets
 Download the Genea 2023 Train Dataset. To get it you can use [our link of Google Drive](https://drive.google.com/drive/folders/1GvP67y8Ffi-3Y-pzGoZxMtyGKG0ZHT_4?usp=sharing) or you can use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
