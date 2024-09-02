@@ -28,7 +28,7 @@ RUN conda install pip -y
 # Create the conda environment 'ggvad' from the environment.yml file.
 RUN conda env create -f environment.yml
 
-SHELL ["conda", "run", "-n", "diffuse", "/bin/bash", "-c"]
+SHELL ["conda", "run", "-n", "sdgg", "/bin/bash", "-c"]
 
 # These installations with PIP were done quickly.
 RUN pip install pydub praat-parselmouth essentia TextGrid
