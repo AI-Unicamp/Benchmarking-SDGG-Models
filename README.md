@@ -28,26 +28,26 @@ git clone https://github.com/AI-Unicamp/Benchmarking-SDGG-Models.git
 Download the Genea 2023 Train Dataset. To get it you can use [our link of Google Drive](https://drive.google.com/drive/folders/1GvP67y8Ffi-3Y-pzGoZxMtyGKG0ZHT_4?usp=sharing) or you can use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
 Put the downloaded directory called "trn" in the next directory path.
 ```angular2html
-cd DiffuseStyleGesture+/Benchmarking-SDGG-Models/Dataset/Genea2023/
+cd Benchmarking-SDGG-Models/Dataset/Genea2023/
 ```
 
 Download the Genea 2023 Test Dataset. To get it you can use [our link of Google Drive](https://drive.google.com/drive/folders/15IcRXcu6PI2DryfYLzMwSis4zEcMTFIK?usp=sharing) or you can use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).
 Put the downloaded directory called "tst" in the next directory path.
 ```angular2html
-cd DiffuseStyleGesture+/Benchmarking-SDGG-Models/Dataset/Genea2023/
+cd Benchmarking-SDGG-Models/Dataset/Genea2023/
 ```
 
 Download the audios WAV of Genea 2023 Test Dataset with only Speaker 1. To get it you can use [our link of Goolgle Drive](https://drive.google.com/drive/folders/1R-nvdXInAsqvJUuT8EY6fQ0TnbD7jlni?usp=sharing).
 Copy the downloaded dataset in the next directory path.
 ```angular2html
-cd DiffuseStyleGesture+/Benchmarking-SDGG-Models/Dataset/Genea2023/
+cd Benchmarking-SDGG-Models/Dataset/Genea2023/
 ```
 
 ## Step 3: Generating Unseen Voices
 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1MkpCmmM0C9dyS5w7wQXKg71UTUPhqbvO?usp=sharing).
 After download you have to put the directories in:
 ```angular2html
-cd DiffuseStyleGesture+/Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC
+cd Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC
 ```
 
 To generate all voices with voice conversion launch the next command:
@@ -59,7 +59,7 @@ LEO
 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1IgvbrCVKkgDzZXfMyFUCZlEDsI6GU41j?usp=sharing).
 After download you have to put the directories in:
 ```angular2html
-cd DiffuseStyleGesture+/Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment
+cd Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment
 ```
 
 To generate all voices in noisy environment launch the next command:
