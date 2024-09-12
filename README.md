@@ -111,40 +111,16 @@ cd /workspace/benchmarking_sdgg/
 python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/wav_spk_1/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
 ```
 
-3. Generate gestures from **Test Dataset with High Noisy Environment** (TWH-Party).
 ```angular2html
-python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/high/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
+python generate.py --wav_path <dataset_X_wav_path> --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
 ```
-
-4. Generate gestures from **Test Dataset with Mid Noisy Environment** (TWH-Party).
-```angular2html
-python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/mid/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
-```
-
-5. Generate gestures from **Test Dataset with Low Noisy Environment** (TWH-Party).
-```angular2html
-python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/low/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
-```
-
-6. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Highest Pitch Man***
-```angular2html
-python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/kkkkkkkkk/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
-```
-
-8. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Lowest Pitch Man***
-```angular2html
-python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/kkkkkkkkk/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
-```
-
-10. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Highest Pitch Woman***
-```angular2html
-python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/kkkkkkkkk/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
-```
-
-12. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Lowest Pitch Woman***
-```angular2html
-python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/kkkkkkkkk/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
-```
+3. Generate gestures from **Test Dataset with High Noisy Environment** (TWH-Party). To do this replace <dataset_X_wav_path> by: ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/high/
+4. Generate gestures from **Test Dataset with Mid Noisy Environment** (TWH-Party). To do this replace <dataset_X_wav_path> by: ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/mid/
+5. Generate gestures from **Test Dataset with Low Noisy Environment** (TWH-Party). To do this replace <dataset_X_wav_path> by: ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/low/
+6. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Highest Pitch Man***. To do this replace <dataset_X_wav_path> by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/kkkkkkkkk/
+8. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Lowest Pitch Man***. To do this replace <dataset_X_wav_path> by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/kkkkkkkkk/
+9. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Highest Pitch Woman***. To do this replace <dataset_X_wav_path> by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/kkkkkkkkk/
+10. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Lowest Pitch Woman***. To do this replace <dataset_X_wav_path> by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/kkkkkkkkk/
 
 ### Calculate the Positions and 3D Rotations
 
