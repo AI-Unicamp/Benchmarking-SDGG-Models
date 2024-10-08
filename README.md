@@ -28,7 +28,7 @@ Sample here:
 
 ![Structure of Directories](https://github.com/AI-Unicamp/Benchmarking-SDGG-Models/blob/main/Images-to-Readme/Structure-of-directories.png)
 
-## Step 2: Downloading Genea 2023 Datasets ----------------------------------
+## Step 2: Downloading Genea 2023 Datasets --------------------------------------
 Download the Genea 2023 Train Dataset. To obtain it, you can preferably use [our link of Google Drive](https://drive.google.com/drive/folders/1GvP67y8Ffi-3Y-pzGoZxMtyGKG0ZHT_4?usp=sharing), or as a last resort, you could use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
 Put the downloaded directory called "trn" in the next directory path.
 ```angular2html
@@ -47,14 +47,14 @@ Copy the downloaded dataset in the next directory path.
 
 Put the downloaded directory called "wav_spk_1" in the next directory path.
 ```angular2html
-cBenchmarking-SDGG-Models/Dataset/Genea2023/
+Benchmarking-SDGG-Models/Dataset/Genea2023/
 ```
 
-## Step 3: Generating Unseen Voices -------------------------------------
+## Step 3: Generating Unseen Voices ---------------------------------------------
 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1MkpCmmM0C9dyS5w7wQXKg71UTUPhqbvO?usp=sharing).
 After download you have to put the directories in:
 ```angular2html
-cd Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC
+Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC
 ```
 
 To generate all voices with voice conversion launch the next command:
@@ -62,7 +62,7 @@ To generate all voices with voice conversion launch the next command:
 LEO
 ```
 
-## Step 4: Generating Voices in Noisy Environment (TWH Party Dataset)
+## Step 4: Generating Voices in Noisy Environment (TWH Party Dataset) -----------
 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1IgvbrCVKkgDzZXfMyFUCZlEDsI6GU41j?usp=sharing).
 After download you have to put the directories in:
 ```angular2html
