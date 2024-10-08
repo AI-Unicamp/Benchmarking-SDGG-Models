@@ -96,6 +96,10 @@ source activate sdgg
 cd /workspace/benchmarking_sdgg/
 ```
 
+Sample here:
+
+![Structure of Directories](https://github.com/AI-Unicamp/Benchmarking-SDGG-Models/blob/main/Images-to-Readme/Sample_after_launch_container.png)
+
 ### Download the models pre-trained needed to the Gestures Generation
 
 1. Download files of DiffuseStyleGesture's pre-trained models from [google cloud](https://drive.google.com/drive/folders/1V83X4ZNYQZ_u5A1hKW8Tr9_4cui22TNw?usp=sharing). Put this two files inside of "DiffuseStyleGesture/BEAT-TWH-main/mydiffusion_beat_twh/TWH_mymodel4_512_v0/"
