@@ -74,7 +74,7 @@ To generate all voices in noisy environment launch the next command:
 LEO
 ```
 
-## Step 5: Processing
+## Step 5: Processing ----------------------------------------------------------------------
 ### Running Docker
 1. Create docker image using the next command in your terminal:
 ```angular2html
