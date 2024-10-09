@@ -169,4 +169,4 @@ Calculate FGD and MSE metrics. We provide the pretrained autoencoder `model_chec
 ```angular2html
 python Computing_FGD.py --model_path 'model_checkpoint_epoch_49_90_246.bin'
 ```
-The metric results will be saved in `.txt` files, in `./Benchmarking-SDGG-Models/`.
+The metric results will be saved in `Metrics-results-Noisy-Environment.txt` and `Metrics-results-Unseen-Voices-VC.txt` files, in `./Benchmarking-SDGG-Models/`.
