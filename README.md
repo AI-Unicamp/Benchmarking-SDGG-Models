@@ -28,7 +28,7 @@ Sample here:
 
 ![Structure_of_directories](https://github.com/AI-Unicamp/Benchmarking-SDGG-Models/blob/main/Images-to-Readme/Structure_of_directories.png)
 
-## Step 2: Downloading Genea 2023 Datasets ------------------------------------------------
+## Step 2: Downloading Genea 2023 Datasets 
 
 2.1 Download the Genea 2023 Train Dataset. To obtain it, you can preferably use [our link of Google Drive](https://drive.google.com/drive/folders/1GvP67y8Ffi-3Y-pzGoZxMtyGKG0ZHT_4?usp=sharing), or as a last resort, you could use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
 
@@ -48,31 +48,27 @@ Sample here:
 
 ![structure_dataset](https://github.com/AI-Unicamp/Benchmarking-SDGG-Models/blob/main/Images-to-Readme/structure_dataset.png)
 
-## Step 3: Generating Unseen Voices -------------------------------------------------------
-If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1MkpCmmM0C9dyS5w7wQXKg71UTUPhqbvO?usp=sharing).
-After download you have to put the directories in:
-```angular2html
-Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC
-```
+## Step 3: Generating Unseen Voices 
+3.1 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1MkpCmmM0C9dyS5w7wQXKg71UTUPhqbvO?usp=sharing).
 
-To generate all voices with voice conversion launch the next command:
+Put the downloaded directory called `Unseen-Voices-with-VC` in `./Benchmarking-SDGG-Models/Dataset/`
+
+3.2 To generate all voices with voice conversion launch the next command:
 ```angular2html
 LEO
 ```
 
-## Step 4: Generating Voices in Noisy Environment (TWH Party Dataset) ---------------------
-If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1IgvbrCVKkgDzZXfMyFUCZlEDsI6GU41j?usp=sharing).
-After download you have to put the directories in:
-```angular2html
-Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment
-```
+## Step 4: Generating Voices in Noisy Environment (TWH Party Dataset) 
+4.1 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1IgvbrCVKkgDzZXfMyFUCZlEDsI6GU41j?usp=sharing).
 
-To generate all voices in noisy environment launch the next command:
+Put the downloaded directory called `Voices-in-Noisy-Environment` in `./Benchmarking-SDGG-Models/Dataset/` 
+
+4.2 To generate all voices in noisy environment launch the next command:
 ```angular2html
 LEO
 ```
 
-## Step 5: Processing ----------------------------------------------------------------------
+## Step 5: Processing 
 ### 5.1. Running Docker
 1. Create docker image using the next command in your terminal:
 ```angular2html
