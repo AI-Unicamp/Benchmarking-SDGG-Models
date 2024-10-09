@@ -155,7 +155,7 @@ The `--load` argument: If set to `True`, the positions and rotations will be loa
 
 ### 6.1 Training autoencoder FGD
 
-Calculate the 3D positions of the motion data in .bvh format from **trn** dataset that will be used to train the FGD autoencoder.
+Calculate the 3D positions of the motion data in .bvh format from **trn** dataset that will be used to train the FGD autoencoder. We provide the pretrained autoencoder `model_checkpoint_epoch_49_90_246.bin` located inside the `'./Benchmarking-SDGG-Models/evaluation_metric/output'`.
 
 ```angular2html
 python training_encoder.py
@@ -164,7 +164,7 @@ The checkpoints `model_checkpoint_epoch_xx_90_246.bin` generated from the traini
 
 ### 6.2 Calculate FGD and MSE
 
-Calculate FGD and MSE metrics. We provide the pretrained autoencoder `model_checkpoint_epoch_49_90_246.bin` located inside the `'./Benchmarking-SDGG-Models/evaluation_metric/output'`.
+Calculate FGD and MSE metrics. 
 
 ```angular2html
 python Computing_FGD.py --model_path 'model_checkpoint_epoch_49_90_246.bin'
