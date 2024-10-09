@@ -115,8 +115,13 @@ Sample here:
 
 2. Generate gestures from WAV audio files of **"Speaker 1 Test Dataset"**. To do this you can localize in "DiffuseStyleGesture/BEAT-TWH-main/mydiffusion_beat_twh/" and to run the next command in your terminal you need know which is the path of the WAV audios files of the Speaker 1 and which is the path of the tsv files of the "tst" dataset:
 ```angular2html
+cd DiffuseStyleGesture/BEAT-TWH-main/mydiffusion_beat_twh/
+```
+```angular2html
 python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/wav_spk_1/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
 ```
+
+To generate anothers gestures to each directory, only run with this structure and replace <dataset_X_wav_path>
 
 ```angular2html
 python generate.py --wav_path <dataset_X_wav_path> --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
