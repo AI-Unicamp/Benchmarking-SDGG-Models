@@ -131,14 +131,14 @@ python generate.py --wav_path <dataset_X_wav_path> --txt_path ./../../../Benchma
    - replace by: ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/high/
    - replace by: ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/mid/
    - replace by: ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/low/
-9. To generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Highest Pitch Man*** replace <dataset_X_wav_path>.
-   - by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/wav_spk1w_ps-4_spk12m_high/
-11. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Lowest Pitch Man***.
-   - by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/wav_spk1w_ps-10_spk20m_low/
-13. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Highest Pitch Woman***.
-   - by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/wav_spk1w_ps3_spk18w_high/
-15. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Lowest Pitch Woman***.
-   - by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/wav_spk1w_ps-5_spk19w_low/
+4. To generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Highest Pitch Man***
+   - replace by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/wav_spk1w_ps-4_spk12m_high/
+5. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Lowest Pitch Man***.
+   - replace by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/wav_spk1w_ps-10_spk20m_low/
+6. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Highest Pitch Woman***.
+   - replace by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/wav_spk1w_ps3_spk18w_high/
+7. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Lowest Pitch Woman***.
+   - replace by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/wav_spk1w_ps-5_spk19w_low/
 
 ### Calculate the Positions and 3D Rotations
 
