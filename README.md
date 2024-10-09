@@ -26,7 +26,7 @@ git clone https://github.com/genea-workshop/genea_numerical_evaluations.git
 
 Sample here:
 
-![Structure_of_directories](https://github.com/AI-Unicamp/Benchmarking-SDGG-Models/blob/main/Images-to-Readme/Structure-of-directories.png)
+![Structure_of_directories](https://github.com/AI-Unicamp/Benchmarking-SDGG-Models/blob/main/Images-to-Readme/Structure_of_directories.png)
 
 ## Step 2: Downloading Genea 2023 Datasets ------------------------------------------------
 Download the Genea 2023 Train Dataset. To obtain it, you can preferably use [our link of Google Drive](https://drive.google.com/drive/folders/1GvP67y8Ffi-3Y-pzGoZxMtyGKG0ZHT_4?usp=sharing), or as a last resort, you could use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
