@@ -152,14 +152,21 @@ cd Benchmarking-SDGG-Models
 ```angular2html
 python computing_positions_rotations_3D_dataloader.py --path './Dataset/Genea2023/trn/bvh' --load False
 ```
-The ˋ--loadˋ argument: If set to ˋTrueˋ, the positions and rotations will be loaded if they have already been calculated; otherwise, they will be calculated from scratch.
+The `--load` argument: If set to `True`, the positions and rotations will be loaded if they have already been calculated; otherwise, they will be calculated from scratch.
 
-### Training FGD
+### 6.2 Training FGD
+
+The positions calculated from the previous step will be used to train the autoencoder using the dataset **trn**.
+
 ```angular2html
-python training_FGD.py
+python training_encoder.py
 ```
+The checkpoints `model_checkpoint_epoch_xx_90_246.bin` will be saved in `./Benchmarking-SDGG-Models/evaluation_metric/output`.
 
-### Calculate FGD and MSE
+### 6.3 Calculate FGD and MSE
+
+We provide the pretrained autoencoder `model_checkpoint_epoch_49_90_246.bin` located inside the `'./Benchmarking-SDGG-Models/evaluation_metric/output'`.
+
 ```angular2html
-python calculate_FGD_MSE.py
+python Computing_FGD.py
 ```
