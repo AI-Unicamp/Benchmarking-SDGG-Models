@@ -121,29 +121,24 @@ cd DiffuseStyleGesture/BEAT-TWH-main/mydiffusion_beat_twh/
 python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/wav_spk_1/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
 ```
 
-To generate anothers gestures to each directory, only run with this structure and replace <dataset_X_wav_path>
-
+It worked!! Right? 
+Do you want to obtain the BVH files for the rest of the directories?
+So, run the command with the same structure, but don't forget to change the <dataset_X_wav_path> part according to the BVH files you want to generate.
 ```angular2html
 python generate.py --wav_path <dataset_X_wav_path> --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
 ```
-3. Generate gestures from **Test Dataset with High, Mid and Low Noisy Environment** (TWH-Party) respectively.
-   - To do this replace <dataset_X_wav_path>
-   - by: ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/high/
-   - by: ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/mid/
-   - by: ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/low/
-
-9. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Highest Pitch Man***.
-   - To do this replace <dataset_X_wav_path>
-   - by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/kkkkkkkkk/
+3. To generate gestures from **Test Dataset with High, Mid and Low Noisy Environment** (TWH-Party) respectively
+   - replace by: ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/high/
+   - replace by: ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/mid/
+   - replace by: ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/low/
+9. To generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Highest Pitch Man*** replace <dataset_X_wav_path>.
+   - by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/wav_spk1w_ps-4_spk12m_high/
 11. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Lowest Pitch Man***.
-   - To do this replace <dataset_X_wav_path>
-   - by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/kkkkkkkkk/
+   - by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/wav_spk1w_ps-10_spk20m_low/
 13. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Highest Pitch Woman***.
-   - To do this replace <dataset_X_wav_path>
-   - by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/kkkkkkkkk/
+   - by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/wav_spk1w_ps3_spk18w_high/
 15. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Lowest Pitch Woman***.
-   - To do this replace <dataset_X_wav_path>
-   - by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/kkkkkkkkk/
+   - by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/wav_spk1w_ps-5_spk19w_low/
 
 ### Calculate the Positions and 3D Rotations
 
