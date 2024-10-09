@@ -141,8 +141,7 @@ python generate.py --wav_path <dataset_X_wav_path> --txt_path ./../../../Benchma
 7. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Lowest Pitch Woman***.
    - replace by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/wav_spk1w_ps-5_spk19w_low/
 
-## Step 6: Evaluating metrics FGD and MSE
-----------------------------------------------------------------------
+## Step 6: Evaluating metrics FGD and MSE 
 
 <!-- ### 6.1 Calculate the Positions and 3D Rotations
 
