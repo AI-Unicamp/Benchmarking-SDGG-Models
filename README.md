@@ -38,8 +38,11 @@ Put the downloaded directory called `trn` in `./Benchmarking-SDGG-Models/Dataset
 
 Put the downloaded directory called `tst` in `./Benchmarking-SDGG-Models/Dataset/Genea2023/`
 
+2.3 Download the Genea 2023 Validation Dataset. To obtain it, you can preferably use [our link of Google Drive](https://drive.google.com/drive/folders/1qDKTZuwYnm-UstNtefLG4C8pPaXWg-Rh?usp=sharing), or as a last resort, you could use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).
 
-2.3 Download the audios WAV of Genea 2023 Test Dataset with only Speaker 1. To get it you can use [our link of Goolgle Drive](https://drive.google.com/drive/folders/1R-nvdXInAsqvJUuT8EY6fQ0TnbD7jlni?usp=sharing).
+Put the downloaded directory called `val` in `./Benchmarking-SDGG-Models/Dataset/Genea2023/`
+
+2.4 Download the audios WAV of Genea 2023 Test Dataset with only Speaker 1. To get it you can use [our link of Goolgle Drive](https://drive.google.com/drive/folders/1R-nvdXInAsqvJUuT8EY6fQ0TnbD7jlni?usp=sharing).
 Copy the downloaded dataset in the next directory path.
 
 Put the downloaded directory called `wav_spk_1` in `./Benchmarking-SDGG-Models/Dataset/Genea2023/`
