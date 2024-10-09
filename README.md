@@ -170,3 +170,16 @@ Calculate FGD and MSE metrics.
 python Computing_FGD.py --model_path 'model_checkpoint_epoch_49_90_246.bin'
 ```
 The metric results will be saved in `Metrics-results-Noisy-Environment.txt` and `Metrics-results-Unseen-Voices-VC.txt` files, in `./Benchmarking-SDGG-Models/`.
+
+## Citation
+
+If our work is useful for you, please cite as:
+
+```
+@inproceedings{sanchez2024benchmarking,
+  title={Benchmarking Speech-Driven Gesture Generation Models for Generalization to Unseen Voices and Noisy Environments},
+  author={SANCHEZ, JOHSAC ISBAC GOMEZ and Inofuente-Colque, Kevin and Marques, Leonardo Boulitreau de Menezes Martins and Costa, Paula Dornhofer Paro and Tonoli, Rodolfo Luis},
+  booktitle={GENEA: Generation and Evaluation of Non-verbal Behaviour for Embodied Agents Workshop 2024},
+  year={2024}
+}
+```
