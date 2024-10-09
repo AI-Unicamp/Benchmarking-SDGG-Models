@@ -30,20 +30,23 @@ Sample here:
 
 ## Step 2: Downloading Genea 2023 Datasets ------------------------------------------------
 
-Download the Genea 2023 Train Dataset. To obtain it, you can preferably use [our link of Google Drive](https://drive.google.com/drive/folders/1GvP67y8Ffi-3Y-pzGoZxMtyGKG0ZHT_4?usp=sharing), or as a last resort, you could use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
+* Download the Genea 2023 Train Dataset. To obtain it, you can preferably use [our link of Google Drive](https://drive.google.com/drive/folders/1GvP67y8Ffi-3Y-pzGoZxMtyGKG0ZHT_4?usp=sharing), or as a last resort, you could use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).  
+
 Put the downloaded directory called `trn` in `./Benchmarking-SDGG-Models/Dataset/Genea2023/`
 
-Download the Genea 2023 Test Dataset. To obtain it, you can preferably use [our link of Google Drive](https://drive.google.com/drive/folders/15IcRXcu6PI2DryfYLzMwSis4zEcMTFIK?usp=sharing), or as a last resort, you could use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).
+* Download the Genea 2023 Test Dataset. To obtain it, you can preferably use [our link of Google Drive](https://drive.google.com/drive/folders/15IcRXcu6PI2DryfYLzMwSis4zEcMTFIK?usp=sharing), or as a last resort, you could use [the official web site of Genea 2023 in Zenodo](https://zenodo.org/records/8199133).
+
 Put the downloaded directory called `tst` in `./Benchmarking-SDGG-Models/Dataset/Genea2023/`
 
 
-Download the audios WAV of Genea 2023 Test Dataset with only Speaker 1. To get it you can use [our link of Goolgle Drive](https://drive.google.com/drive/folders/1R-nvdXInAsqvJUuT8EY6fQ0TnbD7jlni?usp=sharing).
+* Download the audios WAV of Genea 2023 Test Dataset with only Speaker 1. To get it you can use [our link of Goolgle Drive](https://drive.google.com/drive/folders/1R-nvdXInAsqvJUuT8EY6fQ0TnbD7jlni?usp=sharing).
 Copy the downloaded dataset in the next directory path.
+
 Put the downloaded directory called `wav_spk_1` in `./Benchmarking-SDGG-Models/Dataset/Genea2023/`
 
 Sample here:
 
-![Structure_of_directories 2](https://github.com/AI-Unicamp/Benchmarking-SDGG-Models/blob/main/Images-to-Readme/Structure_of_directories 2.png)
+![structure_dataset](https://github.com/AI-Unicamp/Benchmarking-SDGG-Models/blob/main/Images-to-Readme/structure dataset.png)
 
 ## Step 3: Generating Unseen Voices -------------------------------------------------------
 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1MkpCmmM0C9dyS5w7wQXKg71UTUPhqbvO?usp=sharing).
