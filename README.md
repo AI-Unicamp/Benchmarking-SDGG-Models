@@ -141,8 +141,10 @@ python generate.py --wav_path <dataset_X_wav_path> --txt_path ./../../../Benchma
 7. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Lowest Pitch Woman***.
    - replace by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/wav_spk1w_ps-5_spk19w_low/
 
-## Step 6: Evaluating metrics----------------------------------------------------------------------
-### 6.1 Calculate the Positions and 3D Rotations
+## Step 6: Evaluating metrics FGD and MSE
+----------------------------------------------------------------------
+
+<!-- ### 6.1 Calculate the Positions and 3D Rotations
 
 First, it is necessary to calculate the 3D positions and rotations of the motion data in .bvh format of the dataset **trn**.
 
@@ -152,21 +154,22 @@ cd Benchmarking-SDGG-Models
 ```angular2html
 python computing_positions_rotations_3D_dataloader.py --path './Dataset/Genea2023/trn/bvh' --load False
 ```
-The `--load` argument: If set to `True`, the positions and rotations will be loaded if they have already been calculated; otherwise, they will be calculated from scratch.
+The `--load` argument: If set to `True`, the positions and rotations will be loaded if they have already been calculated; otherwise, they will be calculated from scratch.-->
 
-### 6.2 Training FGD
+### 6.1 Training autoencoder FGD
 
-The positions calculated from the previous step will be used to train the autoencoder using the dataset **trn**.
+Calculate the 3D positions of the motion data in .bvh format from **trn** dataset that will be used to train the FGD autoencoder.
 
 ```angular2html
 python training_encoder.py
 ```
-The checkpoints `model_checkpoint_epoch_xx_90_246.bin` will be saved in `./Benchmarking-SDGG-Models/evaluation_metric/output`.
+The checkpoints `model_checkpoint_epoch_xx_90_246.bin` generated from the training will be saved in `./Benchmarking-SDGG-Models/evaluation_metric/output`.
 
-### 6.3 Calculate FGD and MSE
+### 6.2 Calculate FGD and MSE
 
-We provide the pretrained autoencoder `model_checkpoint_epoch_49_90_246.bin` located inside the `'./Benchmarking-SDGG-Models/evaluation_metric/output'`.
+Calculate FGD and MSE metrics. We provide the pretrained autoencoder `model_checkpoint_epoch_49_90_246.bin` located inside the `'./Benchmarking-SDGG-Models/evaluation_metric/output'`.
 
 ```angular2html
-python Computing_FGD.py
+python Computing_FGD.py --model_path 'model_checkpoint_epoch_49_90_246.bin'
 ```
+The metric results will be saved in `.txt` files, in `./Benchmarking-SDGG-Models/`.
