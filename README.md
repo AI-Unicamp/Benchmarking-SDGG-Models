@@ -111,7 +111,7 @@ Sample here:
 
 ### 5.3. Generating Gestures to our own two Datasets (VC and TWH-Party).
 
-1. Download the "generate.py" file from [google cloud](https://drive.google.com/drive/folders/1Pu9ob2YUm2rq4msSxeBrbsGsUeGjDnpz?usp=sharing). Put this file inside of "DiffuseStyleGesture/BEAT-TWH-main/mydiffusion_beat_twh/". (This file "generate.py" is similar to the given by DiffuseStyleGesture+, with respectively changes to our work)
+1. Download the "generate.py" and "val_2023_v0_014_main-agent.npy" file from [google cloud](https://drive.google.com/drive/folders/1Pu9ob2YUm2rq4msSxeBrbsGsUeGjDnpz?usp=sharing). Put this file inside of "DiffuseStyleGesture/BEAT-TWH-main/mydiffusion_beat_twh/". (This file "generate.py" is similar to the given by DiffuseStyleGesture+, with respectively changes to our work)
 
 2. Generate gestures from WAV audio files of **"Speaker 1 Test Dataset"**. To do this you can localize in "DiffuseStyleGesture/BEAT-TWH-main/mydiffusion_beat_twh/" and to run the next command in your terminal you need know which is the path of the WAV audios files of the Speaker 1 and which is the path of the tsv files of the "tst" dataset:
 ```angular2html
