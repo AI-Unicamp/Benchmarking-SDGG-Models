@@ -126,15 +126,12 @@ To generate anothers gestures to each directory, only run with this structure an
 ```angular2html
 python generate.py --wav_path <dataset_X_wav_path> --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
 ```
-3. Generate gestures from **Test Dataset with High Noisy Environment** (TWH-Party).
+3. Generate gestures from **Test Dataset with High, Mid and Low Noisy Environment** (TWH-Party) respectively.
    - To do this replace <dataset_X_wav_path>
    - by: ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/high/
-5. Generate gestures from **Test Dataset with Mid Noisy Environment** (TWH-Party).
-   - To do this replace <dataset_X_wav_path>
    - by: ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/mid/
-7. Generate gestures from **Test Dataset with Low Noisy Environment** (TWH-Party).
-   - To do this replace <dataset_X_wav_path>
    - by: ./../../../Benchmarking-SDGG-Models/Dataset/Voices-in-Noisy-Environment/low/
+
 9. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Highest Pitch Man***.
    - To do this replace <dataset_X_wav_path>
    - by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/kkkkkkkkk/
