@@ -141,7 +141,10 @@ python generate.py --wav_path <dataset_X_wav_path> --txt_path ./../../../Benchma
 7. Generate gestures from ***Speaker 1 Test Dataset with Voice Conversion to Lowest Pitch Woman***.
    - replace by: ./../../../Benchmarking-SDGG-Models/Dataset/Unseen-Voices-with-VC/wav_spk1w_ps-5_spk19w_low/
 
-### Calculate the Positions and 3D Rotations
+## Step 6: Evaluating metrics----------------------------------------------------------------------
+### 6.1 Calculate the Positions and 3D Rotations
+
+First, it is necessary to calculate the 3D positions and rotations of the motion data in .bvh format of the dataset **trn**.
 
 ```angular2html
 cd Benchmarking-SDGG-Models
@@ -149,6 +152,7 @@ cd Benchmarking-SDGG-Models
 ```angular2html
 python computing_positions_rotations_3D_dataloader.py --path './Dataset/Genea2023/trn/bvh' --load False
 ```
+The ˋ--loadˋ argument: If set to ˋTrueˋ, the positions and rotations will be loaded if they have already been calculated; otherwise, they will be calculated from scratch.
 
 ### Training FGD
 ```angular2html
