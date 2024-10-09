@@ -120,6 +120,7 @@ cd DiffuseStyleGesture/BEAT-TWH-main/mydiffusion_beat_twh/
 ```angular2html
 python generate.py --wav_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/wav_spk_1/ --txt_path ./../../../Benchmarking-SDGG-Models/Dataset/Genea2023/tst/main-agent/tsv/
 ```
+The output of BHVs is located in Benchmarking-SGDD-Models/BVH_generated/sample_model001200000/bvh_spk_1
 
 It worked!! Right? 
 Do you want to obtain the BVH files for the rest of the directories?
