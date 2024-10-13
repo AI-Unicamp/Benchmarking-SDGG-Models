@@ -52,14 +52,11 @@ Sample here:
 ![structure_dataset](https://github.com/AI-Unicamp/Benchmarking-SDGG-Models/blob/main/Images-to-Readme/structure_dataset.png)
 
 ## Step 3: Generating Unseen Voices 
-3.1 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1MkpCmmM0C9dyS5w7wQXKg71UTUPhqbvO?usp=sharing).
+3.1 If you dont want manually convert spk1 to all voices by yourself, if can you can download the already converted datasets available on [our link of Google Drive](https://drive.google.com/drive/folders/1MkpCmmM0C9dyS5w7wQXKg71UTUPhqbvO?usp=sharing).
 
-Put the downloaded directory called `Unseen-Voices-with-VC` in `./Benchmarking-SDGG-Models/Dataset/`
+3.2 To generate all voices with voice conversion by yourself follow the steps in [this repository](https://github.com/leonardoboulitreau/whispervits-svc).
 
-3.2 To generate all voices with voice conversion launch the next command:
-```angular2html
-LEO
-```
+Put the downloaded or generated folder called `Unseen-Voices-with-VC` in `./Benchmarking-SDGG-Models/Dataset/`
 
 ## Step 4: Generating Voices in Noisy Environment (TWH Party Dataset) 
 4.1 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1IgvbrCVKkgDzZXfMyFUCZlEDsI6GU41j?usp=sharing).
