@@ -59,14 +59,11 @@ Sample here:
 Put the downloaded or generated folder called `Unseen-Voices-with-VC` in `./Benchmarking-SDGG-Models/Dataset/`
 
 ## Step 4: Generating Voices in Noisy Environment (TWH Party Dataset) 
-4.1 If you dont want generate all voices, then you can download the datasets with [our link of Google Drive](https://drive.google.com/drive/folders/1IgvbrCVKkgDzZXfMyFUCZlEDsI6GU41j?usp=sharing).
+4.1 If you dont want corrupt all audios with noise manually, you can download them already corrupted on [this link of Google Drive](https://drive.google.com/drive/folders/1IgvbrCVKkgDzZXfMyFUCZlEDsI6GU41j?usp=sharing).
 
-Put the downloaded directory called `Voices-in-Noisy-Environment` in `./Benchmarking-SDGG-Models/Dataset/` 
+4.2 To corrupt all speaker 1 audios, follow the steps in the [TWH-Party repository](https://github.com/leonardoboulitreau/TWH-Party). The repo will output a folder named `TWH-Party`. Just rename it to `Voices-in-Noisy-Environment`.
 
-4.2 To generate all voices in noisy environment launch the next command:
-```angular2html
-LEO
-```
+Put the `Voices-in-Noisy-Environment` folder containing the corrupted audios in `./Benchmarking-SDGG-Models/Dataset/` 
 
 ## Step 5: Processing 
 ### 5.1. Running Docker
