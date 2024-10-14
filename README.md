@@ -52,9 +52,9 @@ Sample here:
 ![structure_dataset](https://github.com/AI-Unicamp/Benchmarking-SDGG-Models/blob/main/Images-to-Readme/structure_dataset.png)
 
 ## Step 3: Generating Unseen Voices 
-3.1 If you dont want manually convert spk1 to all voices by yourself, if can you can download the already converted datasets available on [our link of Google Drive](https://drive.google.com/drive/folders/1MkpCmmM0C9dyS5w7wQXKg71UTUPhqbvO?usp=sharing).
+3.1 If you dont want to manually convert spk1 to the unseen voices (from ESD) by yourself, you can download them already converted on [this Google Drive](https://drive.google.com/drive/folders/1MkpCmmM0C9dyS5w7wQXKg71UTUPhqbvO?usp=sharing).
 
-3.2 To generate all voices with voice conversion by yourself follow the steps in [this repository](https://github.com/leonardoboulitreau/whispervits-svc).
+3.2 Alternatively, follow the steps in [this repository](https://github.com/leonardoboulitreau/whispervits-svc) to manually convert spk1 to the unseen voices with a pretrained voice conversion model.
 
 Put the downloaded or generated folder called `Unseen-Voices-with-VC` in `./Benchmarking-SDGG-Models/Dataset/`
 
