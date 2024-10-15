@@ -1,5 +1,7 @@
 # Benchmarking-SDGG-Models
 
+Implementation of the paper [Benchmarking Speech-Driven Gesture Generation Models for Generalization to Unseen Voices and Noisy Environments](https://openreview.net/forum?id=m6FDIP5o4M).
+
 ## Step 1: Cloning repositories
 1. Create a directory for your project
 ```angular2html
