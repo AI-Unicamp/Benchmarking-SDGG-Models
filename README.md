@@ -68,6 +68,9 @@ Put the downloaded or generated folder called `Unseen-Voices-with-VC` in `./Benc
 Put the `Voices-in-Noisy-Environment` folder containing the corrupted audios in `./Benchmarking-SDGG-Models/Dataset/` 
 
 ## Step 5: Processing 
+
+We tested the code on `NVIDIA Quadro RTX 5000`:
+
 ### 5.1. Running Docker
 1. Create docker image using the next command in your terminal:
 ```angular2html
@@ -152,14 +155,14 @@ The `--load` argument: If set to `True`, the positions and rotations will be loa
 
 Calculate the 3D positions of the motion data in .bvh format from **trn** dataset that will be used to train the FGD autoencoder. We provide the pretrained autoencoder `model_checkpoint_epoch_49_90_246.bin` located inside the `'./Benchmarking-SDGG-Models/evaluation_metric/output'`.
 
-If you retrain the autoencoder for a second time, add the argument `--load True` to avoid recalculating the 3D positions of the **trn** dataset.
-
 ```angular2html
 cd ../../../Benchmarking-SDGG-Models/
 ```
 ```angular2html
 python training_encoder.py
 ```
+If you retrain the autoencoder for a second time, add the argument `--load True` to avoid recalculating the 3D positions of the **trn** dataset.
+
 The checkpoints `model_checkpoint_epoch_xx_90_246.bin` generated from the training will be saved in `./Benchmarking-SDGG-Models/evaluation_metric/output`.
 
 ### 6.2 Calculate FGD and MSE
