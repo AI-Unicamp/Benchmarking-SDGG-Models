@@ -167,7 +167,7 @@ The checkpoints `model_checkpoint_epoch_xx_90_246.bin` generated from the traini
 
 ### 6.2 Calculate FGD and MSE
 
-Calculate FGD and MSE metrics. If you retrain the autoencoder for a second time, add the argument `--load True` to avoid recalculating the 3D positions of the **trn** dataset.
+Calculate FGD and MSE metrics. 
 
 ```angular2html
 python Computing_FGD.py --model_path 'model_checkpoint_epoch_49_90_246.bin'
